@@ -1,0 +1,13 @@
+// Archivo de Política de Seguridad para el Servidor RMI
+// Permite la apertura de puertos de escucha, resolución DNS y comunicación por sockets
+
+grant {
+    // Permiso total para entornos educativos y de desarrollo local
+    permission java.security.AllPermission;
+
+    // Alternativamente, permisos granulares recomendados en producción:
+    // permission java.net.SocketPermission "*:1024-65535", "connect,accept,listen,resolve";
+    // permission java.net.SocketPermission "*:1099", "connect,accept,listen,resolve";
+    // permission java.util.PropertyPermission "*", "read,write";
+    // permission java.lang.RuntimePermission "*";
+};

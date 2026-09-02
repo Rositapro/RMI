@@ -1,0 +1,12 @@
+// Archivo de Política de Seguridad para el Cliente RMI
+// Permite la conexión a registros RMI y sockets remotos
+
+grant {
+    // Permiso total para entornos educativos y de desarrollo local
+    permission java.security.AllPermission;
+
+    // Alternativamente, permisos granulares:
+    // permission java.net.SocketPermission "*:1024-65535", "connect,resolve";
+    // permission java.net.SocketPermission "*:1099", "connect,resolve";
+    // permission java.util.PropertyPermission "*", "read";
+};
