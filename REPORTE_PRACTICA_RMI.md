@@ -7,11 +7,11 @@
 # REPORTE DE PRÁCTICA DE LABORATORIO
 
 **Materia:** Programación en Ambiente Cliente/Servidor  
-**Docente:** Ing. / M.C. Riojas  
-**Semestre:** 7mo Semestre — Ingeniería en Sistemas Computacionales  
+**Docente:** Ruben Riojas
+**Semestre:** 7mo Semestre — Ingeniería Informatica
 **Tema:** Unidad: Invocación a Métodos Remotos (Java RMI)  
 **Nombre de la Práctica:** Implementación de un Sistema Distribuido de Gestión de Inventario mediante Java RMI con Objetos Serializables y Políticas de Seguridad  
-**Alumno(a):** Rosita (No. de Control: 23050333)  
+**Alumno(a):** Rosalinda Cedillo Osornio (No. de Control: i23050333)  
 **Repositorio GitHub:** [https://github.com/Rositapro/RMI](https://github.com/Rositapro/RMI)  
 **Fecha:** Septiembre de 2026  
 **Lugar:** Monclova, Coahuila, México  
